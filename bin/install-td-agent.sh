@@ -9,6 +9,7 @@ function install-td-agent-plugins() {
   /usr/sbin/td-agent-gem install \
     fluent-plugin-elasticsearch \
     fluent-plugin-mysql-replicator \
+    fluent-plugin-couchbase \
     --no-ri --no-rdoc
 }
 
